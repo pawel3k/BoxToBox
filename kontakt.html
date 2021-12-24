@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl" style="scroll-behavior: smooth;">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paweł Sobala">
+    <meta name="keywords" content="piłka nożna, polska liga, ekstraklasa, niższe ligi">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <title>BoxToBox - kontakt</title>
+</head>
+<body>
+    <div id="menu">
+        <a href="../index.html"><img src="/images/logo.png" alt="Logo"></a>
+        <a href="../index.html">Strona główna</a><br>
+        <a href="/menu/transfery.html">Transfery</a><br>
+        <a href="/menu/ligi.html">Ligi</a><br>
+        <a href="/menu/kontakt.html">Kontakt</a><br>
+    </div>
+
+
+    <div id="kontakt-menu">
+
+        <h3>BoxToBox - skontaktuj sie z nami!</h3>
+
+        <p><img src="/images/line.gif" width="483" height="6"></p>
+
+        <form action="kontakt.php" method="post">
+
+            <p><b>Twoje dane kontaktowe:</b><br>
+            <i>(nie przekazujemy dalej twoich danych)</i></p><br>
+
+            Imię i nazwisko: <input type="text" value="" size="30"><br>
+            E-mail: <input type="email" name="email" id="" size="30"><br>
+            Telefon komórkowy: <input type="tel" name="telefon" id="" size="20"><br>
+
+            <p><b>Wybierz rodzaj swojej wiadomości:</b><br>
+            
+            <p>
+            <label><input type="radio" name="kategoria" value="wyniki">Wyniki</label> 
+            <label><input type="radio" name="kategoria" value="transfer">Transfery</label> 
+            <label><input type="radio" name="kategoria" value="inne">Inne</label>
+            </p>
+
+            <p><b>Treść twojej wiadomości:</b></p>
+            <p><textarea name="text" cols="60" rows="30"></textarea></p>
+
+            <p><i>Wysyłając ten formularz zgadzasz się na przetwarzanie danycyh prze BoxToBox.</i></p>
+            <input type="submit" value="Wyślij"><br>   
+        </form>
+
+        <p><img src="/images/line.gif" width="483" height="6"></p> 
+
+    </div>
+    
+    <a href="/menu/kontakt.html">
+        <div id="koniec-strony">
+            <p>copyright © - BoxToBox - wszystkie prawa zastrzeżone</p>
+        
+        </div>
+    </a>
+
+</body>
+</html>

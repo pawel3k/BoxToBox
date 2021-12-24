@@ -1,0 +1,178 @@
+html
+{
+    font-size: 16px;
+}
+
+body
+{
+    background-image: url("/images/logo-do-tla.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.4em;
+    word-spacing: 0.1em;
+    letter-spacing: 0.1em;
+
+}
+
+#menu
+{   
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style: solid none none none;
+    clear: both;
+    overflow: hidden;
+}
+
+#menu img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+}
+
+.przywitanie
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    clear: both;
+}
+
+.przywitanie p
+{
+    text-align: center;
+    margin: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:active
+{
+    color: black;
+    
+}
+
+a:visited
+{
+    color: black;
+}
+
+#koniec-strony
+{
+    background-color: rgb(19, 172, 177);
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+}
+
+#ligi-wybor
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+#kontakt-menu
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    border: black;
+    border-style: solid;
+}
+
+#kontakt-menu h3
+{
+    text-align: center;
+}
+
+#kontakt-menu p img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form
+{
+    margin-left: 200px;
+}
+
+#ekstraklasa-tabela
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+}
+
+#ekstraklasa-tabela ul li::before
+{
+    content: "\27A8";
+    color: green;
+    background-color: white;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+#ekstraklasa-tabela p img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td 
+{
+    border: solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabela-start
+{
+    background-color: rgb(19, 172, 177);
+}
+
+#tabela-ekstraklasy
+{
+    
+}
+
+#tabela-ekstraklasy th
+{
+   word-wrap: break-word;
+}
+
+#lider
+{
+    background-color: rgb(22, 213, 22);
+}
+
+.premiowane
+{
+    background-color: rgb(196, 196, 20);  
+}
